@@ -1,0 +1,2 @@
+#Builder Pattern
+Membuat objek yang kompleks dengan komponen dari objek harus diciptakan dalam urutan yang sama atau menggunakan algoritma yang spesifik. Kelas luar memiliki kendali atas urutan penyusunan komponen hingga menjadi sebuah objek 
