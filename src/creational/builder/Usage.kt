@@ -6,6 +6,10 @@ fun dialog(init: DialogBuilder.() -> Unit): Dialog {
     return DialogBuilder(init).build()
 }
 
+fun printer(init: PrinterBuilder.() -> Unit): Printer {
+    return PrinterBuilder(init).build()
+}
+
 fun main() {
     val dialog: Dialog = dialog {
         title {
@@ -21,4 +25,10 @@ fun main() {
     }
     dialog.show()
     dialog.show()
+
+    val printer: Printer = printer {
+
+    }
+    printer.print()
+    printer.print()
 }
